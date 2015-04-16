@@ -1,0 +1,83 @@
+.heading
+{
+text-align:center;
+color:black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+
+.wat td
+{
+text-align:center;
+}
+
+.describe
+{
+background-image:url(background-image.png);
+}
+.describe h1
+{
+text-align:center;
+font-family: 'Oswald', sans-serif;
+color="#000000";
+}
+.information
+{
+text-align:center;
+}
+.information li
+{
+list-style:none;
+}
+.contact
+{
+text-align:center;
+}
+.contact li
+{
+list-style:none;
+}
+.userinfo
+{
+background-color:lightblue;
+}
+.guide 
+{
+}
+.guide li
+
+{
+list-style:none;
+display:inline-block;
+float:left;
+}
+.guide ul
+{
+list-style:none;
+text-aling:center;
+margin:0;
+padding:0;
+}
+.note {
+    -webkit-columns: 100px 3; 
+       columns: 100px 3;
+-webkit-column-rule: 4px outset black;
+}
+.footerholder {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.footer {
+    height: 100px;
+    margin: auto;
+    width: 400px;
+}
